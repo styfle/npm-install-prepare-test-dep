@@ -1,13 +1,9 @@
 {
   "name": "npm-install-prepare-test-dep",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "files": ["build.js"],
   "scripts": {
-    "prepare": "touch build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "echo 'Prepare was invoked successfully'"
   },
-  "author": "",
   "license": "ISC"
 }
