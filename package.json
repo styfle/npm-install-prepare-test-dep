@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prepare": "echo 'Prepare was invoked successfully'"
+    "prepare": "touch build.js && echo 'Prepare was invoked successfully'"
   },
   "license": "ISC"
 }
